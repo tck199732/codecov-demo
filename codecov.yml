@@ -14,3 +14,8 @@ component_management:
       name: api  # this is a display name, and can be changed freely
       paths:
         - api
+
+    - component_id: api-smiles  # this is an identifier that should not be changed
+      name: smiles  # this is a display name, and can be changed freely
+      paths:
+        - api/smiles/
